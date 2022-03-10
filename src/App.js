@@ -40,7 +40,15 @@ function App() {
         >
           {userInfo?.name.first} {userInfo?.name.last}!
         </div>
+        <p
+          style={{
+            color: "#999",
+            fontSize: "18px",
+            margin: "0",
+          }}
+        ></p>
       </div>
+      {/* {JSON.stringify(userInfo)} */}
     </div>
   );
 }
